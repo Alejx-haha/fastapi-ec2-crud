@@ -10,10 +10,10 @@ app = FastAPI(title="API CRUD con FastAPI y SQLModel")
 # -----------------------------
 # Base de datos
 # -----------------------------
-sqlite_file_name = "database.db"
-sqlite_url = f"sqlite:///{sqlite_file_name}"
+DATABASE_URL = "postgresql://admin:Db12345678@fastapidb.cx6qo6ac8m6c.us-east-2.rds.amazonaws.com:5432/fastapi_db"
 
-engine = create_engine(sqlite_url, echo=False)
+engine = create_engine(DATABASE_URL, echo=True)
+
 
 
 def create_db_and_tables():
