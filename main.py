@@ -10,7 +10,7 @@ app = FastAPI(title="API CRUD con FastAPI y SQLModel")
 # -----------------------------
 # Base de datos
 # -----------------------------
-DATABASE_URL = "postgresql://fastapidb:Db12345678@fastapidb.cx6qo6ac8m6c.us-east-2.rds.amazonaws.com:5432/fastapi_db"
+DATABASE_URL = "postgresql://fastapidb:ariel12345@fastapidb.cx6qo6ac8m6c.us-east-2.rds.amazonaws.com:5432/fastapi_db"
 
 engine = create_engine(DATABASE_URL, echo=True)
 
