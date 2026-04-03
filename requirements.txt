@@ -1,4 +1,4 @@
 fastapi
 uvicorn
 sqlmodel
-fsycopg2-binary
+psycopg2-binary
